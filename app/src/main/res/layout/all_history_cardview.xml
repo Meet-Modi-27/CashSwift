@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="6dp"
+    app:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFF">
+
+        <LinearLayout
+            android:id="@+id/allHistory_relative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Receiver: "
+                    android:textColor="#000"
+                    android:fontFamily="@font/denk_one"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"/>
+                <TextView
+                    android:id="@+id/all_history_receiver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name of Receiver"
+                    android:fontFamily="@font/antic"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sender: "
+                    android:textColor="#000"
+                    android:fontFamily="@font/denk_one"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"/>
+                <TextView
+                    android:id="@+id/all_history_sender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name of Sender"
+                    android:fontFamily="@font/antic"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Category : "
+                    android:textColor="#000"
+                    android:fontFamily="@font/denk_one"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"/>
+                <TextView
+                    android:id="@+id/all_history_category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Category"
+                    android:fontFamily="@font/antic"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/all_history_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/allHistory_relative"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Amount"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="30sp"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

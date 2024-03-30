@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1088926608950",
+    "firebase_url": "https://cashswift-fbd2a-default-rtdb.firebaseio.com",
+    "project_id": "cashswift-fbd2a",
+    "storage_bucket": "cashswift-fbd2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088926608950:android:b97f1d72b0b8ebde333297",
+        "android_client_info": {
+          "package_name": "com.example.cashswift"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7q1o58uLPgrjJQyskSYrTTqb-Erqa_Rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
